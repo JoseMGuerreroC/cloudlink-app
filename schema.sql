@@ -6,7 +6,3 @@ CREATE TABLE IF NOT EXISTS enlaces (
     descripcion TEXT,
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-INSERT INTO enlaces (titulo, url, plataforma, descripcion) VALUES 
-('Presentación Q1', 'https://drive.google.com', 'Google Drive', 'Balance del primer trimestre'),
-('Video Marketing', 'https://youtube.com', 'YouTube', 'Campaña de verano');
